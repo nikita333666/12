@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="test stiliy.css">
+    <link rel="shortcut icon" href="porosa.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <style>
+          a:link    {color:green; text-decoration:none}
+          a:visited {color:blue; text-decoration:none}
+          a:hover   {color:purple; text-decoration:underline}
+          a:active  {color:yellow; text-decoration:underline}
+</style>
+    <title>porosata</title>
+</head>
+<body>
+<iframe src="https://www.wikipedia.org/" width="400" height="200"></iframe>
+
+<a href="index.html">Учебник по HTML5</a>
+<details>
+    <summary>Фрагменты 2015</summary>
+<ul>
+    <li>iPhone 6S Plus</li>
+    <li>Nexux 6P</li>
+    <li>Galaxy 56 Edge</li>
+    <li>Lunia 950 XI</li>
+</ul>
+</details>
+<br>
+<hr>
+<dl>
+    <dt>Онтология</dt>
+    <dd>Раздел философии фундаментальные принципы бытия</dd>
+</dl>
+<br>
+<hr>
+    <table border="1">
+    <caption><b>Популярные смартфоны 2015</b></caption>
+    <thead>
+    <tr>
+        <td>Модель</td><td>Компания</td><td>Цена</td>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td>Nexux 6P</td><td>Huawei</td><td>49000</td>
+    </tr>
+    <tr>
+    <td>Iphone 6S Plus</td><td>Aplle</td><td>62000</td>
+    </tr>
+    <tr>
+        <td>Lumia 960 XL</td><td>Microsoft</td><td>36000</td>
+    </tr>
+    </tbody>
+    <tfoot>
+    <tr>
+        <th colspan="3">Информация по состоянию на 17 марта</th>
+    </tr>
+    </tfoot>
+</table>
+<br>
+<hr>
+<table>
+    <tr>
+        <td rowspan="2" style="background-color:green;">1</td>
+        <td >1</td>
+        <td >2</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td colspan="2" style="background-color:red;">7</td>
+    </tr>
+</table>
+<br>
+<hr>
+<a href="https://yandex.ru/search/?text=%D1%8A&clid=2411726&lr=35" target="_blank"></a>
+<a href="#paragraf1" target="_blank">Параграф 1</a>|<a
+href="#paragraf2" target="_blank">Параграф 2</a>|<a
+href="#paragraf3" target="_blank">Параграф 3</a>
+<h2 id="paragraf1">Параграф 1</h2>
+<p>Содержание параграффа 1</p>
+<h2 id="paragraf2">Параграф 2</h2>
+<p>Содержание параграфа 2</p>
+<h2 id="paragraf3">Параграф 3</h2>
+<p>Содержание параграфа 3</p>
+<br>
+<hr>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+СТИЛИ:
+body{background-color:black;}
+tr{color:white;}
+dd{color:white;}
+dt{color:white;}
+details{color:white;}
+p{color:white;}
+h2{color:white;}
