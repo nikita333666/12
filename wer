@@ -1,0 +1,225 @@
+
+
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.navbar-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  float: left;
+}
+
+.nav-link {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.nav-item:hover .dropdown-menu {
+  display: block;
+}
+.button-classic {
+  border: none;
+  color: white;
+  background-color: #4CAF50;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button-medium {
+  width: 120px;
+}
+.button-outlined {
+  border: 2px solid #4CAF50;
+  color: #4CAF50;
+  background-color: white;
+  padding: 12px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.button-large {
+  width: 180px;
+}
+.button-rounded {
+  border: none;
+  color: white;
+  background-color: #4CAF50;
+  padding: 6px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.button-small {
+  width: 80px;
+}
+.range{
+margin-top:10px;
+}
+.card{
+width:350px;
+border:3px solid black;
+}
+
+.main{
+border-radius: 5px;
+border:2px  solid black;
+
+}
+.main_foot{
+background:orange;
+margin:0px;
+}
+.main_up{
+margin:0px;
+background:green;
+border-style:none none solid none;
+
+}
+.main_down{
+margin:0px;
+background:green;
+border-style:solid none none none;
+}
+
+.styled {
+   margin:10px;
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: rgba(220, 0, 0, 1);
+  background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+  box-shadow:
+    inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.styled:hover {
+  background-color: rgba(255, 0, 0, 1);
+}
+
+.styled:active {
+  box-shadow:
+    inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+.main_down {
+P { text-align: center }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="ww.css">
+    <title></title>
+</head>
+<body>
+<nav class="navbar">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a href="#" class="nav-link">Пункт 1</a>
+      <ul class="dropdown-menu">
+        <li><a href="#">Подпункт 1.1</a></li>
+        <li><a href="#">Подпункт 1.2</a></li>
+        <li><a href="#">Подпункт 1.3</a></li>
+      </ul>
+    </li>
+    <li class="nav-item"><a href="#" class="nav-link">Пункт 2</a></li>
+    <li class="nav-item"><a href="#" class="nav-link">Пункт 3</a></li>
+  </ul>
+</nav>
+<button class="button-classic button-medium">Classic Button</button>
+<button class="button-outlined button-large">Outlined Button</button>
+<button class="button-rounded button-small">Rounded Button</button>
+<button class="button-gradient button-medium">Gradient Button</button>
+<div class="range">
+1<input type="range" step="1" min="0" max="100" value="10" id="price" name="price"/>100
+</div>
+<div class="card">
+  <img src="a.jpg" alt="Апельсины" width="300">
+  <h1>Апельсин: описание продукта</h1>
+  <p>
+Апельсин — плод апельсинового дерева (Citrus sinensis). Сложно поверить, но исторически апельсин представляет собой гибрид мандарина (Citrus reticulata) и помело (Citrus maxima). Однако появился он так давно, что сейчас о его гибридном происхождении никто и не вспоминает: известен, что апельсины культивировалось в Китае ещё за 2,5 тысячи лет до нашей эры.</p>
+  <a href="https://edaplus.info/produce/orange.html?ysclid=lnng1qnyqk505277633">Ссылка 1 </a>
+  <a href="https://www.gastronom.ru/product/apelsin-1401?ysclid=lnng23jjgo944590393">Ссылка 2 </a>
+</div>
+<div class="card2">
+  <img src="u.jpeg"  width="300">
+  <h1>Яблоки описание продукта:</h1>
+  <p>Яблоко – шаровидный съедобный плод яблони, листопадного дерева семейства Розовые.
+
+Цветки яблони бывают от белого до нежно-розового и даже ярко-малинового окраса, 3-4 сантиметра в диаметре. Они собираются в соцветия из 4-6 цветков. Центральный цветок называют «королевским цветком»; он открывается первым и может развить более крупный плод (яблоко).
+
+Яблоки созревают в конце лета или осенью. Для пром
+</p>
+  <a href="https://edaplus.info/produce/apple.html?ysclid=lnng4cjnry438269173">Ссылка 1 </a>
+  <a href="https://www.gastronom.ru/product/jabloko-1446?ysclid=lnng554l3u235177996">Ссылка 2 </a>
+</div>
+
+<div class="main">
+  <div class="main_up">
+    <p style="margin:0; padding:10px;">Рекомендуемое</p>
+  </div>
+  <div class="main_foot">
+    <h1 style="margin:0;padding:5px;"> Обращение с заголовком</h1>
+    <p>bbebebebebebbebebebebebebebebebebebebbebebebebebbebebebebebbebebebebebebebebebebebebebebebebebebeb</p>
+    <button class="favorite styled" type="button">Нажми</button>
+  </div>
+<div class="main_down">
+  <p >2 дня спустя</p>
+</div>
+</div>
+
+</body>
+</html>
