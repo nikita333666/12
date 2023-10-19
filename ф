@@ -1,0 +1,119 @@
+.photo{
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+ width: 100%;
+  height: 50rem;
+   background-image: url('4.png');
+    background-size:no-repeat;
+    background-size:cover;
+
+}
+
+h1{
+color:white;
+}
+
+.be{
+margin:0px;
+
+color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 3.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; /* 4.55rem */
+}
+
+p{
+
+color: white;
+font-size: 15px;
+font-family: Montserrat;
+font-weight: 700;
+line-height: 72.80px;
+word-wrap: break-word
+}
+
+
+
+
+
+
+color: #FFF;
+
+text-align: center;
+font-family: Montserrat;
+font-size: 1rem;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 1.5rem */
+letter-spacing: 0.2rem;
+text-transform: uppercase;
+
+
+
+
+
+
+
+width: 90rem;
+height: 137.5rem;
+background: #FFF;
+
+
+
+
+
+
+
+color: #000;
+
+text-align: center;
+font-family: Montserrat;
+font-size: 2.875rem;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; /* 3.7375rem */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PersonalVerstka</title>
+</head>
+<link rel="stylesheet" href="3.css">
+<body style="margin:0px;">
+<div class="photo">
+
+    <h1 class="be">Юрий Ключевский</h1>
+        <p><br>
+    фрилансер, веб-разработчик,<br>
+        создание сайтов
+    </p>
+
+</div>
+
+
+</body>
+</html>
